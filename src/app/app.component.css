@@ -1,0 +1,7 @@
+.header {
+    background: linear-gradient(black,yellow,black);
+    display: block;
+    padding: 2%;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

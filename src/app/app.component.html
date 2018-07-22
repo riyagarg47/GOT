@@ -1,0 +1,21 @@
+<div class="container-fluid" style=" background: linear-gradient(to right, #000428, #004e92);">
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <div class="container">
+     <div class="row header">
+       <div class="col-md-12">
+         <a style="color:white;text-shadow: 0px 0px 5px rgba(0,0,0,1);text-decoration-style:dotted" [routerLink]="['/']"><b>Game Of Thrones</b></a>
+       </div>
+     </div>
+     <!-- Go Back button begins -->
+    <div class="row" style="margin-top: 2%">
+      <div class="col-md-12">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" (click)="goBackToPreviousPage()">Go Back</button>
+      </div>
+    </div>
+     <!-- Go Back button ends -->
+  </div>
+</div>
+<br/>
+</div>
+<router-outlet></router-outlet>
